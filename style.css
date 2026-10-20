@@ -1,0 +1,53 @@
+*{
+    /* universal properties style */
+    ---head-one: normal;
+    ---head-two: italic;
+    ---body-normal:normal;
+    ---head-one-size:25px;
+    ---head-two-size:18px;
+    ---body-normal-size:14px;
+    ---primary:#ff0000;
+    ---secondary:green;
+    ---text-color:white;
+    ---bg-color:black;
+   
+}
+
+h1,p,a{
+    background-color: var(---bg-color);
+}
+h1{
+    color: var(---primary);
+    font-size:var(---head-one-size);
+    font-style: var(---head-two);
+}
+
+h1:hover{
+    color: var(---secondary);
+    font-size:var(---body-normal-size);
+    font-style: var(---head-two);
+    cursor: pointer;
+}
+
+.head-one{
+    color: var(---primary);
+    font-size: var(---head-one-size);
+    font-style: var(---head-one);
+}
+
+#head-one{
+    color: blue;
+
+}
+
+#head-one{
+    font-size: 32px;
+       font-style: italic;
+}
+a[target]{
+    background-color: rgb(170, 16, 16);
+    text-decoration: none;
+    color: chocolate;
+    font-size: 46px;
+        font-style: var(--font-style);
+}

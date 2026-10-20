@@ -1,0 +1,28 @@
+*{
+    --primary-color:rgba(24,90,28,1);
+    --secondary-color:#dc2626;
+    --text-white:#ffffff;
+    --border-radius:90px;
+}
+
+body{
+    background-color: #dc2626;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: var(--text-white);
+    display: flex;
+}
+/* .header-logo{
+    height: 145px;
+    width: 145px;
+}
+.header-logo a img{
+    height: 120px;
+}
+.header-center #menu{
+    display: flex;
+}
+.header-center #menu li{} */
